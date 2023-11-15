@@ -1,10 +1,17 @@
+# Process large csv file with Multiprocessing module
+
+#### This program splits a large data file to chunks and does a parallel computations for each chunk.
+#### The file contains some data about trips by NY taxy companies. We need to calculate a total revenue of each company
+
+
+
 ```mermaid
 flowchart TB;
     S((Start))
     style S fill:blue
     F{Does file exist?}
     style F fill:orange
-    E(ValueError)
+    E(IOError)
     style E fill:red
     D(Divide File to Chunks)
     style D fill:brown
