@@ -1,5 +1,5 @@
 ```mermaid
-flowchart LR;
+flowchart TB;
     S((Start))
     style S fill:blue
     F{Does file exist?}
